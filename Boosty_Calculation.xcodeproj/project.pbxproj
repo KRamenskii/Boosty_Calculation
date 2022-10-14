@@ -14,6 +14,8 @@
 		1D63AADC28F94E5600EE8AD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D63AADA28F94E5600EE8AD4 /* LaunchScreen.storyboard */; };
 		1D63AAE928F952FD00EE8AD4 /* MainStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D63AAE828F952FD00EE8AD4 /* MainStackView.swift */; };
 		1D63AAED28F9552E00EE8AD4 /* UIStackView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D63AAEC28F9552E00EE8AD4 /* UIStackView + Extensions.swift */; };
+		1D63AAEF28F962E200EE8AD4 /* OperationsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D63AAEE28F962E200EE8AD4 /* OperationsModel.swift */; };
+		1D63AAF128F9638900EE8AD4 /* CalculationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D63AAF028F9638900EE8AD4 /* CalculationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		1D63AADD28F94E5600EE8AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D63AAE828F952FD00EE8AD4 /* MainStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainStackView.swift; sourceTree = "<group>"; };
 		1D63AAEC28F9552E00EE8AD4 /* UIStackView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extensions.swift"; sourceTree = "<group>"; };
+		1D63AAEE28F962E200EE8AD4 /* OperationsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsModel.swift; sourceTree = "<group>"; };
+		1D63AAF028F9638900EE8AD4 /* CalculationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		1D63AAE528F951E600EE8AD4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1D63AAEE28F962E200EE8AD4 /* OperationsModel.swift */,
+				1D63AAF028F9638900EE8AD4 /* CalculationModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -198,9 +204,11 @@
 			files = (
 				1D63AAE928F952FD00EE8AD4 /* MainStackView.swift in Sources */,
 				1D63AAD428F94E5600EE8AD4 /* MainViewController.swift in Sources */,
+				1D63AAF128F9638900EE8AD4 /* CalculationModel.swift in Sources */,
 				1D63AAD028F94E5600EE8AD4 /* AppDelegate.swift in Sources */,
 				1D63AAED28F9552E00EE8AD4 /* UIStackView + Extensions.swift in Sources */,
 				1D63AAD228F94E5600EE8AD4 /* SceneDelegate.swift in Sources */,
+				1D63AAEF28F962E200EE8AD4 /* OperationsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
